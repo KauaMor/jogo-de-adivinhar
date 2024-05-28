@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="./css/global.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Adivinhe o Número</h1>
+        <p>Tente adivinhar o número sorteado entre 1 e 10!</p>
+        <label for="numeroDigi">Digite um número de 0 a 10:</label>
+        <input type="number" id="numeroDigi" min="0" max="10">
+        <button onclick="verificarNumero()">Jogar</button>
+        <button onclick="jogarNovamente()" id="btnJogarNovamente">Jogar Novamente</button>
+        
+        <p id="resultado"></p>
+    </div>
+
+    <script src="./java/java.js"></script>
+</body>
+</html>

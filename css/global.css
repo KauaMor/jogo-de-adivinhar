@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../img/genio.jfif);
+    background-repeat: no-repeat;
+    background-size: cover; /* A imagem preencherá a tela inteira */
+    background-position: center; /* Mostra o foco e direção da imagem */
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 18px;
+}
+.container {
+    color:#fff;
+    max-width: 400px;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(35px);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(129, 128, 128, 0.1);
+}
+label {
+    font-size: 25px;
+    display: block;
+    margin-bottom: 10px;
+}
+input {
+    text-align: center; /* Centraliza o texto no input */
+    margin-bottom: 10px; /* Espaçamento entre o input e os botões */
+    color:#fff;
+    background-color: rgb(73, 35, 104);
+    width: 390px;
+    padding: 10px 0px 10px 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+button {
+    width: 187px;
+    height: 40px;
+    background-color:rgb(126, 15, 126);
+    color: #fff;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px; /* Adicionado para espaçamento entre os botões */
+    transition: background-color 0.4s ease; /* Transição suave da cor de fundo */
+}
+button[disabled] {
+    background-color: #4d4b4c;
+    cursor: not-allowed;
+}
+button:hover {
+    color: #fff;
+    background-color: rgb(185, 59, 248);
+}
